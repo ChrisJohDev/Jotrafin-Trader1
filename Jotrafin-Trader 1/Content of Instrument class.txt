@@ -1,0 +1,591 @@
+[2009-May-15]
+---
+[15:00:03] Sent Get interface command.
+[15:00:04] Interface check OK.
+[15:00:04] Sent Login command.
+[15:00:07] User logged in.
+[15:00:07] Sent Activate mailbox command.
+[15:00:12] Mailbox activation OK.
+[15:00:12] Sent Get data command.
+[15:00:14] Data received.
+[15:00:14] Sent Get open candles command.
+[15:00:19] Login: 0
+[15:00:19] Open candles received.
+
+
+// ***** EUR/USD *****
+[15:00:22] Ask: 1.3558 | Bid: 1.3556
+[15:00:22] BuyInterest: 0.76
+[15:00:22] Currency 1: EUR | Currency 2: USD
+[15:00:22] Sent Get history command.
+[15:00:23] History: <?xml version="1.0" ?>
+<Candles instrument="0" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open="1.3557" min="1.3553" max="1.3566" last="1.3556" vol="74"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open="1.3557" min="1.3553" max="1.3558" last="1.3553" vol="5"/>
+</Candles>
+[15:00:23] Instrument ID: 0
+[15:00:23] Instrument Index: 0
+[15:00:23] Lot Size: 100000
+[15:00:23] Max: 1.365
+[15:00:23] Min: 1.3513
+[15:00:24] Pip Value: 10
+[15:00:24] Points: 4
+[15:00:24] Point Size: 0.0001
+[15:00:24] Sell Interest: -1.79
+[15:00:24] Time: 5/15/2009 9:00:22 AM
+[15:00:24] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** USD/JPY *****
+[15:00:24] Ask: 95.42 | Bid: 95.4
+[15:00:24] BuyInterest: 0.39
+[15:00:24] Currency 1: USD | Currency 2: JPY
+[15:00:24] Sent Get history command.
+[15:00:25] History: <?xml version="1.0" ?>
+<Candles instrument="1" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open="95.28" min="95.28" max="95.44" last="95.4" vol="75"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open="95.42" min="95.4" max="95.43" last="95.43" vol="5"/>
+</Candles>
+[15:00:25] Instrument ID: 1
+[15:00:25] Instrument Index: 1
+[15:00:25] Lot Size: 100000
+[15:00:25] Max: 96.2
+[15:00:25] Min: 94.81
+[15:00:25] Pip Value: 10.48
+[15:00:25] Points: 2
+[15:00:25] Point Size: 0.01
+[15:00:25] Sell Interest: -1.29
+[15:00:25] Time: 5/15/2009 9:00:22 AM
+[15:00:25] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** GBP/USD *****
+[15:00:25] Ask: 1.524 | Bid: 1.5236
+[15:00:25] BuyInterest: -0.63
+[15:00:25] Currency 1: GBP | Currency 2: USD
+[15:00:25] Sent Get history command.
+[15:00:27] History: <?xml version="1.0" ?>
+<Candles instrument="2" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open="1.5233" min="1.5228" max="1.5251" last="1.5235" vol="87"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open="1.5236" min="1.5236" max="1.524" last="1.5237" vol="5"/>
+</Candles>
+[15:00:27] Instrument ID: 2
+[15:00:27] Instrument Index: 2
+[15:00:27] Lot Size: 100000
+[15:00:27] Max: 1.5251
+[15:00:27] Min: 1.5136
+[15:00:27] Pip Value: 10
+[15:00:27] Points: 4
+[15:00:27] Point Size: 0.0001
+[15:00:27] Sell Interest: -0.53
+[15:00:27] Time: 5/15/2009 9:00:21 AM
+[15:00:27] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** USD/CHF *****
+[15:00:27] Ask: 1.1094 | Bid: 1.1089
+[15:00:27] BuyInterest: 1.24
+[15:00:27] Currency 1: USD | Currency 2: CHF
+[15:00:27] Sent Get history command.
+[15:00:28] History: <?xml version="1.0" ?>
+<Candles instrument="3" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open="1.1087" min="1.1083" max="1.1096" last="1.1093" vol="77"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open="1.1094" min="1.1092" max="1.1095" last="1.1095" vol="5"/>
+</Candles>
+[15:00:28] Instrument ID: 3
+[15:00:28] Instrument Index: 3
+[15:00:28] Lot Size: 100000
+[15:00:28] Max: 1.1127
+[15:00:28] Min: 1.104
+[15:00:28] Pip Value: 9.02
+[15:00:29] Points: 4
+[15:00:29] Point Size: 0.0001
+[15:00:29] Sell Interest: -2.19
+[15:00:29] Time: 5/15/2009 9:00:39 AM
+[15:00:29] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** EUR/CHF *****
+[15:00:29] Ask: 1.5038 | Bid: 1.5027
+[15:00:29] BuyInterest: 2.8
+[15:00:29] Currency 1: EUR | Currency 2: CHF
+[15:00:29] Sent Get history command.
+[15:00:30] History: <?xml version="1.0" ?>
+<Candles instrument="4" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open="1.5033" min="1.5032" max="1.5039" last="1.5039" vol="97"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open="1.5038" min="1.5038" max="1.504" last="1.5038" vol="5"/>
+</Candles>
+[15:00:30] Instrument ID: 4
+[15:00:30] Instrument Index: 4
+[15:00:30] Lot Size: 100000
+[15:00:30] Max: 1.5081
+[15:00:30] Min: 1.5001
+[15:00:30] Pip Value: 9.02
+[15:00:30] Points: 4
+[15:00:30] Point Size: 0.0001
+[15:00:30] Sell Interest: -4.1
+[15:00:30] Time: 5/15/2009 9:00:40 AM
+[15:00:30] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** AUD/USD *****
+[15:00:30] Ask: 0.7563 | Bid: 0.7558
+[15:00:30] BuyInterest: 4.28
+[15:00:30] Currency 1: AUD | Currency 2: USD
+[15:00:30] Sent Get history command.
+[15:00:32] History: <?xml version="1.0" ?>
+<Candles instrument="5" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open=".756" min=".7557" max=".7569" last=".756" vol="69"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open=".7561" min=".756" max=".7563" last=".7563" vol="4"/>
+</Candles>
+[15:00:32] Instrument ID: 5
+[15:00:32] Instrument Index: 5
+[15:00:32] Lot Size: 100000
+[15:00:32] Max: 0.7611
+[15:00:32] Min: 0.7523
+[15:00:32] Pip Value: 10
+[15:00:32] Points: 4
+[15:00:32] Point Size: 0.0001
+[15:00:32] Sell Interest: -5.57
+[15:00:32] Time: 5/15/2009 9:00:22 AM
+[15:00:32] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** USD/CAD *****
+[15:00:32] Ask: 1.1737 | Bid: 1.1732
+[15:00:32] BuyInterest: -0.33
+[15:00:32] Currency 1: USD | Currency 2: CAD
+[15:00:32] Sent Get history command.
+[15:00:34] History: <?xml version="1.0" ?>
+<Candles instrument="6" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open="1.1751" min="1.1733" max="1.1753" last="1.1742" vol="67"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open="1.1737" min="1.1736" max="1.174" last="1.174" vol="4"/>
+</Candles>
+[15:00:35] Instrument ID: 6
+[15:00:35] Instrument Index: 6
+[15:00:35] Lot Size: 100000
+[15:00:35] Max: 1.1772
+[15:00:35] Min: 1.169
+[15:00:35] Pip Value: 8.52
+[15:00:35] Points: 4
+[15:00:35] Point Size: 0.0001
+[15:00:35] Sell Interest: -0.5
+[15:00:35] Time: 5/15/2009 9:00:21 AM
+[15:00:35] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** EUR/GBP *****
+[15:00:35] Ask: 0.8897 | Bid: 0.8893
+[15:00:35] BuyInterest: 0.67
+[15:00:35] Currency 1: EUR | Currency 2: GBP
+[15:00:35] Sent Get history command.
+[15:00:36] History: <?xml version="1.0" ?>
+<Candles instrument="7" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open=".8903" min=".8891" max=".8907" last=".89" vol="79"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open=".8899" min=".8897" max=".8899" last=".8897" vol="6"/>
+</Candles>
+[15:00:36] Instrument ID: 7
+[15:00:36] Instrument Index: 7
+[15:00:36] Lot Size: 100000
+[15:00:36] Max: 0.8965
+[15:00:36] Min: 0.8891
+[15:00:36] Pip Value: 15.24
+[15:00:36] Points: 4
+[15:00:36] Point Size: 0.0001
+[15:00:36] Sell Interest: -1.79
+[15:00:36] Time: 5/15/2009 9:00:41 AM
+[15:00:37] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** EUR/JPY *****
+[15:00:37] Ask: 129.41 | Bid: 129.3
+[15:00:37] BuyInterest: 1.66
+[15:00:37] Currency 1: EUR | Currency 2: JPY
+[15:00:37] Sent Get history command.
+[15:00:39] History: <?xml version="1.0" ?>
+<Candles instrument="8" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open="129.2" min="129.18" max="129.46" last="129.36" vol="94"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open="129.38" min="129.36" max="129.41" last="129.41" vol="7"/>
+</Candles>
+[15:00:39] Instrument ID: 8
+[15:00:39] Instrument Index: 8
+[15:00:39] Lot Size: 100000
+[15:00:39] Max: 131.17
+[15:00:39] Min: 128.42
+[15:00:39] Pip Value: 10.48
+[15:00:39] Points: 2
+[15:00:39] Point Size: 0.01
+[15:00:39] Sell Interest: -2.91
+[15:00:39] Time: 5/15/2009 9:00:40 AM
+[15:00:39] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** GBP/JPY *****
+[15:00:39] Ask: 145.49 | Bid: 145.33
+[15:00:39] BuyInterest: 0.58
+[15:00:39] Currency 1: GBP | Currency 2: JPY
+[15:00:39] Sent Get history command.
+[15:00:41] History: <?xml version="1.0" ?>
+<Candles instrument="9" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open="145.15" min="145.1" max="145.56" last="145.4" vol="99"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open="145.42" min="145.42" max="145.49" last="145.49" vol="5"/>
+</Candles>
+[15:00:41] Instrument ID: 9
+[15:00:41] Instrument Index: 9
+[15:00:41] Lot Size: 100000
+[15:00:41] Max: 146.51
+[15:00:41] Min: 143.59
+[15:00:41] Pip Value: 10.48
+[15:00:41] Points: 2
+[15:00:41] Point Size: 0.01
+[15:00:41] Sell Interest: -1.83
+[15:00:41] Time: 5/15/2009 9:00:39 AM
+[15:00:41] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** EUR/CAD *****
+[15:00:41] Ask: 1.5914 | Bid: 1.5903
+[15:00:41] BuyInterest: 0.68
+[15:00:41] Currency 1: EUR | Currency 2: CAD
+[15:00:41] Sent Get history command.
+[15:00:43] History: <?xml version="1.0" ?>
+<Candles instrument="10" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open="1.5935" min="1.5908" max="1.5936" last="1.5919" vol="92"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open="1.592" min="1.591" max="1.592" last="1.5914" vol="6"/>
+</Candles>
+[15:00:43] Instrument ID: 10
+[15:00:43] Instrument Index: 10
+[15:00:43] Lot Size: 100000
+[15:00:43] Max: 1.5981
+[15:00:43] Min: 1.5896
+[15:00:43] Pip Value: 8.52
+[15:00:43] Points: 4
+[15:00:43] Point Size: 0.0001
+[15:00:43] Sell Interest: -1.83
+[15:00:43] Time: 5/15/2009 9:00:39 AM
+[15:00:43] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** EUR/AUD *****
+[15:00:43] Ask: 1.7935 | Bid: 1.7922
+[15:00:43] BuyInterest: -9.49
+[15:00:43] Currency 1: EUR | Currency 2: AUD
+[15:00:43] Sent Get history command.
+[15:00:45] History: <?xml version="1.0" ?>
+<Candles instrument="11" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open="1.7949" min="1.7919" max="1.7951" last="1.794" vol="96"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open="1.7938" min="1.7934" max="1.7942" last="1.7935" vol="7"/>
+</Candles>
+[15:00:45] Instrument ID: 11
+[15:00:45] Instrument Index: 11
+[15:00:45] Lot Size: 100000
+[15:00:45] Max: 1.8003
+[15:00:45] Min: 1.7919
+[15:00:45] Pip Value: 7.56
+[15:00:45] Points: 4
+[15:00:45] Point Size: 0.0001
+[15:00:45] Sell Interest: 7.23
+[15:00:45] Time: 5/15/2009 9:00:40 AM
+[15:00:45] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** GBP/CHF *****
+[15:00:45] Ask: 1.6907 | Bid: 1.6891
+[15:00:45] BuyInterest: 1.73
+[15:00:45] Currency 1: GBP | Currency 2: CHF
+[15:00:45] Sent Get history command.
+[15:00:50] History: <?xml version="1.0" ?>
+<Candles instrument="12" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open="1.6884" min="1.6879" max="1.6914" last="1.6904" vol="97"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open="1.6905" min="1.6903" max="1.6908" last="1.6904" vol="9"/>
+</Candles>
+[15:00:50] Instrument ID: 12
+[15:00:50] Instrument Index: 12
+[15:00:50] Lot Size: 100000
+[15:00:50] Max: 1.6914
+[15:00:50] Min: 1.6791
+[15:00:50] Pip Value: 9.01
+[15:00:50] Points: 4
+[15:00:50] Point Size: 0.0001
+[15:00:50] Sell Interest: -3.01
+[15:00:50] Time: 5/15/2009 9:00:56 AM
+[15:00:50] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** CHF/JPY *****
+[15:00:50] Ask: 86.07 | Bid: 86.03
+[15:00:50] BuyInterest: -1.18
+[15:00:50] Currency 1: CHF | Currency 2: JPY
+[15:00:50] Sent Get history command.
+[15:00:52] History: <?xml version="1.0" ?>
+<Candles instrument="13" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open="85.97" min="85.97" max="86.15" last="86.07" vol="100"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open="86.08" min="86.07" max="86.12" last="86.07" vol="7"/>
+</Candles>
+[15:00:52] Instrument ID: 13
+[15:00:52] Instrument Index: 13
+[15:00:52] Lot Size: 100000
+[15:00:52] Max: 87.1
+[15:00:52] Min: 85.46
+[15:00:52] Pip Value: 10.48
+[15:00:52] Points: 2
+[15:00:52] Point Size: 0.01
+[15:00:52] Sell Interest: 0.29
+[15:00:52] Time: 5/15/2009 9:00:52 AM
+[15:00:52] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** AUD/CAD *****
+[15:00:52] Ask: 0.8877 | Bid: 0.8871
+[15:00:52] BuyInterest: 4.3
+[15:00:52] Currency 1: AUD | Currency 2: CAD
+[15:00:52] Sent Get history command.
+[15:00:56] History: <?xml version="1.0" ?>
+<Candles instrument="14" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open=".8882" min=".8875" max=".8891" last=".8891" vol="87"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open=".889" min=".8877" max=".889" last=".8877" vol="7"/>
+</Candles>
+[15:00:56] Instrument ID: 14
+[15:00:56] Instrument Index: 14
+[15:00:56] Lot Size: 100000
+[15:00:56] Max: 0.8915
+[15:00:56] Min: 0.8849
+[15:00:56] Pip Value: 8.52
+[15:00:56] Points: 4
+[15:00:56] Point Size: 0.0001
+[15:00:56] Sell Interest: -5.66
+[15:00:56] Time: 5/15/2009 9:00:53 AM
+[15:00:57] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** AUD/JPY *****
+[15:00:57] Ask: 72.18 | Bid: 72.14
+[15:00:57] BuyInterest: 4.77
+[15:00:57] Currency 1: AUD | Currency 2: JPY
+[15:00:57] Sent Get history command.
+[15:00:58] History: <?xml version="1.0" ?>
+<Candles instrument="15" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open="72" min="72" max="72.23" last="72.14" vol="87"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open="72.15" min="72.14" max="72.2" last="72.19" vol="9"/>
+</Candles>
+[15:00:58] Instrument ID: 15
+[15:00:58] Instrument Index: 15
+[15:00:58] Lot Size: 100000
+[15:00:58] Max: 73.2
+[15:00:58] Min: 71.45
+[15:00:58] Pip Value: 10.47
+[15:00:58] Points: 2
+[15:00:58] Point Size: 0.01
+[15:00:58] Sell Interest: -6.25
+[15:00:59] Time: 5/15/2009 9:01:03 AM
+[15:00:59] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** NZD/USD *****
+[15:00:59] Ask: 0.5904 | Bid: 0.59
+[15:00:59] BuyInterest: 3.33
+[15:00:59] Currency 1: NZD | Currency 2: USD
+[15:00:59] Sent Get history command.
+[15:01:01] History: <?xml version="1.0" ?>
+<Candles instrument="16" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open=".5904" min=".59" max=".591" last=".59" vol="31"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open=".5904" min=".5903" max=".5904" last=".5904" vol="3"/>
+</Candles>
+[15:01:01] Instrument ID: 16
+[15:01:01] Instrument Index: 16
+[15:01:01] Lot Size: 100000
+[15:01:01] Max: 0.5972
+[15:01:01] Min: 0.5869
+[15:01:01] Pip Value: 10
+[15:01:01] Points: 4
+[15:01:01] Point Size: 0.0001
+[15:01:01] Sell Interest: -4.62
+[15:01:01] Time: 5/15/2009 9:01:09 AM
+[15:01:01] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** CAD/JPY *****
+[15:01:01] Ask: 81.35 | Bid: 81.31
+[15:01:01] BuyInterest: 0.19
+[15:01:01] Currency 1: CAD | Currency 2: JPY
+[15:01:01] Sent Get history command.
+[15:01:03] History: <?xml version="1.0" ?>
+<Candles instrument="17" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open="81.12" min="81.11" max="81.37" last="81.31" vol="96"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open="81.32" min="81.32" max="81.39" last="81.35" vol="10"/>
+</Candles>
+[15:01:03] Instrument ID: 17
+[15:01:03] Instrument Index: 17
+[15:01:03] Lot Size: 100000
+[15:01:03] Max: 82.19
+[15:01:03] Min: 80.66
+[15:01:03] Pip Value: 10.47
+[15:01:03] Points: 2
+[15:01:03] Point Size: 0.01
+[15:01:03] Sell Interest: -1.08
+[15:01:03] Time: 5/15/2009 9:01:08 AM
+[15:01:03] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** NZD/JPY *****
+[15:01:03] Ask: 56.37 | Bid: 56.31
+[15:01:03] BuyInterest: 3.8
+[15:01:03] Currency 1: NZD | Currency 2: JPY
+[15:01:03] Sent Get history command.
+[15:01:14] History: <?xml version="1.0" ?>
+<Candles instrument="18" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open="56.28" min="56.27" max="56.4" last="56.37" vol="89"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open="56.38" min="56.36" max="56.44" last="56.4" vol="11"/>
+</Candles>
+[15:01:14] Instrument ID: 18
+[15:01:15] Instrument Index: 18
+[15:01:15] Lot Size: 100000
+[15:01:15] Max: 57.45
+[15:01:15] Min: 55.78
+[15:01:15] Pip Value: 10.47
+[15:01:15] Points: 2
+[15:01:15] Point Size: 0.01
+[15:01:15] Sell Interest: -5.06
+[15:01:15] Time: 5/15/2009 9:01:25 AM
+[15:01:15] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** GBP/AUD *****
+[15:01:15] Ask: 2.0162 | Bid: 2.0156
+[15:01:15] BuyInterest: -11.64
+[15:01:15] Currency 1: GBP | Currency 2: AUD
+[15:01:15] Sent Get history command.
+[15:01:16] History: <?xml version="1.0" ?>
+<Candles instrument="20" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open="2.0155" min="2.0145" max="2.0168" last="2.0168" vol="99"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open="2.0166" min="2.0156" max="2.0174" last="2.0162" vol="13"/>
+</Candles>
+[15:01:16] Instrument ID: 20
+[15:01:16] Instrument Index: 19
+[15:01:16] Lot Size: 100000
+[15:01:16] Max: 2.0189
+[15:01:16] Min: 2.0018
+[15:01:17] Pip Value: 7.56
+[15:01:17] Points: 4
+[15:01:17] Point Size: 0.0001
+[15:01:17] Sell Interest: 9.04
+[15:01:17] Time: 5/15/2009 9:01:25 AM
+[15:01:17] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** AUD/NZD *****
+[15:01:17] Ask: 1.2817 | Bid: 1.2798
+[15:01:17] BuyInterest: -0.41
+[15:01:17] Currency 1: AUD | Currency 2: NZD
+[15:01:17] Sent Get history command.
+[15:01:19] Sent KeepAlive command.
+[15:01:21] History: <?xml version="1.0" ?>
+<Candles instrument="21" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open="1.2815" min="1.2811" max="1.2831" last="1.2831" vol="89"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open="1.283" min="1.2815" max="1.283" last="1.2815" vol="13"/>
+</Candles>
+[15:01:21] Instrument ID: 21
+[15:01:21] Instrument Index: 20
+[15:01:21] Lot Size: 100000
+[15:01:21] Max: 1.2861
+[15:01:22] Min: 1.274
+[15:01:22] Pip Value: 5.9
+[15:01:22] Points: 4
+[15:01:22] Point Size: 0.0001
+[15:01:22] Sell Interest: -0.83
+[15:01:22] Time: 5/15/2009 9:01:26 AM
+[15:01:22] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** USD/HKD *****
+[15:01:22] Ask: 7.7516 | Bid: 7.7509
+[15:01:22] BuyInterest: -0.08
+[15:01:22] Currency 1: USD | Currency 2: HKD
+[15:01:22] History: <?xml version="1.0" ?>
+<Candles instrument="22" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open="7.7517" min="7.7516" max="7.7519" last="7.7519" vol="5"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open="7.7516" min="7.7516" max="7.7516" last="7.7516" vol="1"/>
+</Candles>
+[15:01:22] Instrument ID: 22
+[15:01:22] Instrument Index: 21
+[15:01:22] Lot Size: 100000
+[15:01:22] Max: 7.7523
+[15:01:22] Min: 7.7504
+[15:01:22] Pip Value: 1.29
+[15:01:22] Points: 4
+[15:01:22] Point Size: 0.0001
+[15:01:22] Sell Interest: -1.03
+[15:01:23] Time: 5/15/2009 9:00:52 AM
+[15:01:23] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** USD/SGD *****
+[15:01:23] Ask: 1.4675 | Bid: 1.467
+[15:01:23] BuyInterest: -4.9
+[15:01:23] Currency 1: USD | Currency 2: SGD
+[15:01:23] Sent Get history command.
+[15:01:25] History: <?xml version="1.0" ?>
+<Candles instrument="23" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open="1.4675" min="1.4673" max="1.468" last="1.468" vol="17"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open="1.4679" min="1.4673" max="1.4679" last="1.4675" vol="7"/>
+</Candles>
+[15:01:25] Instrument ID: 23
+[15:01:25] Instrument Index: 22
+[15:01:25] Lot Size: 100000
+[15:01:25] Max: 1.4693
+[15:01:25] Min: 1.4627
+[15:01:25] Pip Value: 6.82
+[15:01:26] Points: 4
+[15:01:26] Point Size: 0.0001
+[15:01:26] Sell Interest: 0.5
+[15:01:26] Time: 5/15/2009 9:01:10 AM
+[15:01:26] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** USD/ZAR *****
+[15:01:26] Ask: 8.6318 | Bid: 8.6242
+[15:01:26] BuyInterest: -28.49
+[15:01:26] Currency 1: USD | Currency 2: ZAR
+[15:01:26] Sent Get history command.
+[15:01:26] Command received "OK".
+[15:01:28] History: <?xml version="1.0" ?>
+<Candles instrument="24" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open="8.6251" min="8.6202" max="8.6317" last="8.6244" vol="75"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open="8.6253" min="8.6243" max="8.6347" last="8.6318" vol="12"/>
+</Candles>
+[15:01:28] Instrument ID: 24
+[15:01:28] Instrument Index: 23
+[15:01:28] Lot Size: 100000
+[15:01:28] Max: 8.6631
+[15:01:28] Min: 8.4389
+[15:01:28] Pip Value: 1.16
+[15:01:28] Points: 4
+[15:01:28] Point Size: 0.0001
+[15:01:28] Sell Interest: 24.26
+[15:01:28] Time: 5/15/2009 9:01:23 AM
+[15:01:28] Obj to string: VTAPI.InstrumentClass
+
+
+// ***** ZAR/JPY *****
+[15:01:28] Ask: 11.09 | Bid: 11.06
+[15:01:28] BuyInterest: 2.53
+[15:01:28] Currency 1: ZAR | Currency 2: JPY
+[15:01:28] History: <?xml version="1.0" ?>
+<Candles instrument="25" interval="10">
+ <Candle starttime="2009-05-15 08:50:00.0" endtime="2009-05-15 09:00:00.0" open="11.06" min="11.06" max="11.13" last="11.13" vol="20"/>
+ <Candle starttime="2009-05-15 09:00:00.0" endtime="2009-05-15 09:10:00.0" open="11.13" min="11.08" max="11.13" last="11.09" vol="7"/>
+</Candles>
+[15:01:29] Instrument ID: 25
+[15:01:29] Instrument Index: 24
+[15:01:29] Lot Size: 100000
+[15:01:29] Max: 11.41
+[15:01:29] Min: 11
+[15:01:29] Pip Value: 10.47
+[15:01:29] Points: 2
+[15:01:29] Point Size: 0.01
+[15:01:29] Sell Interest: -3.12
+[15:01:29] Time: 5/15/2009 9:01:18 AM
+[15:01:29] Obj to string: VTAPI.InstrumentClass
+
+
+[15:01:29] No of Instruments: 25

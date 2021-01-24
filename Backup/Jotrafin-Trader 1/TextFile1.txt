@@ -1,0 +1,40 @@
+﻿private bool Login()
+		{
+			CfrmLogin frmLogin = new CfrmLogin();
+			frmLogin.edtUser.Text = "";
+			frmLogin.edtPassword.Text = "";
+			int res = -1;
+			XmlDocument doc = new XmlDocument();
+			doc.LoadXml(this.api.GetServerList());
+			XmlNodeList snodes = doc.GetElementsByTagName("server");
+			XmlNode snode;
+
+			for (int i = 0; i < snodes.Count; i++)
+			{
+				snode = snodes.Item(i);
+				frmLogin.AddServerToList(snode.Attributes.GetNamedItem("alias").Value,
+					int.Parse(snode.Attributes.GetNamedItem("id").Value));
+			}
+
+			if (frmLogin.ShowDialog(this) == DialogResult.OK)
+			{
+				try
+				{
+					int serverID = frmLogin.cBox_edtServer.SelectedIndex;
+					this.int_serverIndx = serverID;
+					res = this.api.Login(frmLogin.edtUser.Text, frmLogin.edtPassword.Text, serverID);
+					Echo("Login: " + res.ToString());
+					if(res==0) return true;
+				}
+				catch (Exception e)
+				{
+					ShowError(e.Message);
+					return false;
+				}
+			}
+			for (int i = 0; i < api.GetAccountCount(); i++)
+			{
+				this.api_accounts = (AccountsClass)api.Accounts;
+			}
+			return false;
+		}

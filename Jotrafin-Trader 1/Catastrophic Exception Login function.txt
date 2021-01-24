@@ -1,0 +1,10 @@
+0123456789101112131415161718202122232425-Pair A-
+
+
+[2009-May-25]
+---
+[16:58:14] Logging in user: chrisjoh3 ...
+[16:58:14] Loggin exception! Message: Catastrophic failure (Exception from HRESULT: 0x8000FFFF (E_UNEXPECTED))
+[16:58:14] Stack trace:    at VTAPI.VT_APIClass.Login(String UserName, String Password, Int32 ServerID)
+   at D4M.FINANCE.JOTRAFIN.frm_main.Login() in D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\frm_main.cs:line 274
+[16:58:14] Faulting method: Int32 Login(System.String, System.String, Int32)

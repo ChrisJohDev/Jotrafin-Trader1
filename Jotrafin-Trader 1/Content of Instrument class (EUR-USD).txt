@@ -1,0 +1,22 @@
+[2009-May-15]
+---
+[12:31:52] Login: 0
+[12:31:56] Ask: 1.3553 | Bid: 1.3551
+[12:31:56] BuyInterest: 0.76
+[12:31:56] Currency 1: EUR | Currency 2: USD
+[12:32:14] History: <?xml version="1.0" ?>
+<Candles instrument="0" interval="10">
+ <Candle starttime="2009-05-15 06:20:00.0" endtime="2009-05-15 06:30:00.0" open="1.3552" min="1.3538" max="1.3561" last="1.3559" vol="71"/>
+ <Candle starttime="2009-05-15 06:30:00.0" endtime="2009-05-15 06:40:00.0" open="1.3558" min="1.3553" max="1.3559" last="1.3553" vol="16"/>
+</Candles>
+[12:32:14] Instrument ID: 0
+[12:32:14] Instrument Index: 0
+[12:32:14] Lot Size: 100000
+[12:32:14] Max: 1.365
+[12:32:14] Min: 1.3538
+[12:32:14] Pip Value: 10
+[12:32:14] Points: 4
+[12:32:14] Point Size: 0.0001
+[12:32:14] Sell Interest: -1.79
+[12:32:14] Time: 5/15/2009 6:32:24 AM
+[12:32:14] Obj to string: VTAPI.InstrumentClass

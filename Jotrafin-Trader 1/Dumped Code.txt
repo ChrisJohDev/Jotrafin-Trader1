@@ -1,0 +1,30 @@
+﻿
+		///// <summary>
+		///// Attempts to find the third instrument to use in a arbitrage setup.
+		///// </summary>
+		///// <param name="c1">Currency 1</param>
+		///// <param name="c2">Currency 2</param>
+		///// <param name="id1">Instrumet 1 ID value</param>
+		///// <param name="id2">Instrumet 2 ID value</param>
+		///// <returns>ID for instrument 3 if found. Else returns -1</returns>
+		//private string FindMatch(string c1, string c2, string id1, string id2)
+		//{
+		//    string rv = "-1";
+		//    for (int i = 0; i < api_instruments.Count; i++)
+		//    {
+		//        if (id1 != api_instruments.get_Items(i).ID && id2 != api_instruments.get_Items(i).ID)
+		//        {
+		//            if (c1 == api_instruments.get_Items(i).currency1 && api_instruments.get_Items(i).currency2 == api_instruments.ItemByID(id2).currency1)
+		//            {
+		//                rv = api_instruments.get_Items(i).ID;
+		//                break;
+		//            }
+		//            else if (c2 == api_instruments.get_Items(i).currency2 && api_instruments.get_Items(i).currency1 == api_instruments.ItemByID(id2).currency2)
+		//            {
+		//                rv = api_instruments.get_Items(i).ID;
+		//                break;
+		//            }
+		//        }
+		//    }
+		//    return rv;
+		//}

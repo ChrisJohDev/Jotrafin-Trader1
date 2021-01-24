@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30428</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ED5C6081-50F0-4920-8732-D33DDA4EBFDA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>D4M.FINANCE.JOTRAFIN</RootNamespace>
+    <AssemblyName>Jotrafin-Trader 1</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CLine.cs" />
+    <Compile Include="CLineDocument.cs" />
+    <Compile Include="CLineItem.cs" />
+    <Compile Include="CLineItemFormat.cs" />
+    <Compile Include="CLinePage.cs" />
+    <Compile Include="CPivotValues.cs" />
+    <Compile Include="CTrade.cs" />
+    <Compile Include="CTradeData.cs" />
+    <Compile Include="CTradeDataDBConnect.cs" />
+    <Compile Include="ctrl_Arbitrage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrl_Arbitrage.Designer.cs">
+      <DependentUpon>ctrl_Arbitrage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrl_calculateDistance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrl_calculateDistance.designer.cs">
+      <DependentUpon>ctrl_calculateDistance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrl_CalculateMaxLotSize.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrl_CalculateMaxLotSize.designer.cs">
+      <DependentUpon>ctrl_CalculateMaxLotSize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrl_openPosition.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrl_openPosition.Designer.cs">
+      <DependentUpon>ctrl_openPosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrl_openPositions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrl_openPositions.Designer.cs">
+      <DependentUpon>ctrl_openPositions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrl_trailingStopCalculations.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrl_trailingStopCalculations.designer.cs">
+      <DependentUpon>ctrl_trailingStopCalculations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D4M.Controls.Common.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frm_confirmResetDemoBalance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_confirmResetDemoBalance.designer.cs">
+      <DependentUpon>frm_confirmResetDemoBalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_editIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_editIndex.designer.cs">
+      <DependentUpon>frm_editIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_EnterTrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_EnterTrade.designer.cs">
+      <DependentUpon>frm_EnterTrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_login.designer.cs">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="api_handler.frm_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_main.designer.cs">
+      <DependentUpon>frm_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PositionManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PositionManager.Designer.cs">
+      <DependentUpon>frm_PositionManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ctrl_calculateDistance.resx">
+      <DependentUpon>ctrl_calculateDistance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrl_CalculateMaxLotSize.resx">
+      <DependentUpon>ctrl_CalculateMaxLotSize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrl_trailingStopCalculations.resx">
+      <DependentUpon>ctrl_trailingStopCalculations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_confirmResetDemoBalance.resx">
+      <DependentUpon>frm_confirmResetDemoBalance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_editIndex.resx">
+      <DependentUpon>frm_editIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_EnterTrade.resx">
+      <DependentUpon>frm_EnterTrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_login.resx">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_main.resx">
+      <DependentUpon>frm_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="VTAPIEventHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VTAPI">
+      <Guid>{494CC28F-E0B5-406A-875B-6FE0B4052546}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="VTcore">
+      <Guid>{A68F325D-8958-4CC0-B7F8-7208B054A7E6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ctrl_Arbitrage.resx">
+      <DependentUpon>ctrl_Arbitrage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrl_openPosition.resx">
+      <DependentUpon>ctrl_openPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrl_openPositions.resx">
+      <DependentUpon>ctrl_openPositions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PositionManager.resx">
+      <DependentUpon>frm_PositionManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\D4M Logo.ico">
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Blue Button Down.png" />
+    <Content Include="Blue Button Down24x70.png" />
+    <Content Include="Blue Button.png" />
+    <Content Include="TextFile1.txt" />
+    <None Include="Blue Button24x70.png" />
+    <None Include="Resources\ToolStripBtnDown.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

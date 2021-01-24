@@ -1,0 +1,21 @@
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\bin\Debug\Jotrafin-Trader 1.exe.config
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Debug\Interop.VTAPI.dll
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Debug\Interop.VTcore.dll
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Debug\Jotrafin-Trader 1.csproj.ResolveComReference.cache
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\bin\Debug\Jotrafin-Trader 1.exe
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\bin\Debug\Jotrafin-Trader 1.pdb
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\bin\Debug\Interop.VTAPI.dll
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\bin\Debug\Interop.VTcore.dll
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Debug\ResolveAssemblyReference.cache
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Debug\D4M.FINANCE.JOTRAFIN.ctrl_calculateDistance.resources
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Debug\D4M.FINANCE.JOTRAFIN.ctrl_trailingStopCalculations.resources
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Debug\D4M.FINANCE.JOTRAFIN.frm_confirmResetDemoBalance.resources
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Debug\D4M.FINANCE.JOTRAFIN.CfrmEditIndex.resources
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Debug\D4M.FINANCE.JOTRAFIN.frm_EnterTrade.resources
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Debug\D4M.FINANCE.JOTRAFIN.CfrmLogin.resources
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Debug\D4M.FINANCE.JOTRAFIN.frm_main.resources
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Debug\D4M.FINANCE.JOTRAFIN.Properties.Resources.resources
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Debug\Jotrafin-Trader 1.csproj.GenerateResource.Cache
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Debug\Jotrafin-Trader 1.exe
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Debug\Jotrafin-Trader 1.pdb
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Debug\D4M.FINANCE.JOTRAFIN.ctrl_CalculateMaxLotSize.resources

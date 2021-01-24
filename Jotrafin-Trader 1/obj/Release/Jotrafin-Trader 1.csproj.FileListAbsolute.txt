@@ -1,0 +1,25 @@
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\bin\Release\Jotrafin-Trader 1.exe.config
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\bin\Release\Jotrafin-Trader 1.exe
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\bin\Release\Jotrafin-Trader 1.pdb
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\bin\Release\Interop.VTAPI.dll
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Release\ResolveAssemblyReference.cache
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Release\Interop.VTAPI.dll
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Release\Jotrafin-Trader 1.csproj.ResolveComReference.cache
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Release\D4M.FINANCE.JOTRAFIN.ctrl_calculateDistance.resources
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Release\D4M.FINANCE.JOTRAFIN.ctrl_trailingStopCalculations.resources
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Release\D4M.FINANCE.JOTRAFIN.frm_confirmResetDemoBalance.resources
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Release\D4M.FINANCE.JOTRAFIN.CfrmEditIndex.resources
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Release\D4M.FINANCE.JOTRAFIN.frm_EnterTrade.resources
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Release\D4M.FINANCE.JOTRAFIN.CfrmLogin.resources
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Release\D4M.FINANCE.JOTRAFIN.frm_main.resources
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Release\D4M.FINANCE.JOTRAFIN.Properties.Resources.resources
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Release\Jotrafin-Trader 1.csproj.GenerateResource.Cache
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Release\Jotrafin-Trader 1.exe
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Release\Jotrafin-Trader 1.pdb
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Release\D4M.FINANCE.JOTRAFIN.ctrl_CalculateMaxLotSize.resources
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Release\D4M.FINANCE.JOTRAFIN.ctrl_Arbitrage.resources
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Release\D4M.FINANCE.JOTRAFIN.ctrl_openPosition.resources
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Release\D4M.FINANCE.JOTRAFIN.ctrl_openPositions.resources
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Release\D4M.FINANCE.JOTRAFIN.frm_PositionManager.resources
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\bin\Release\Interop.VTcore.dll
+D:\C#\Jotrafin-Trader 1\Jotrafin-Trader 1\obj\Release\Interop.VTcore.dll
